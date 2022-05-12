@@ -8,13 +8,13 @@
     border: none;
     color: white;
     background-color: green;
-    transition: background 1s, border-radius 1s, color 1s, font-family 1s;
+    transition: background 1s, border-radius 1s, color 1s;
     will-change: background, border-radius;
 }
 .ola:hover{
     background: darkblue;
     border-radius: 15px 50px 15px 50px;
     color: yellowgreen;
-    font-family: 'Courier New', Courier, monospace;
+    
     
 }
