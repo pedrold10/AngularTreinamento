@@ -4,8 +4,17 @@
     padding-bottom: 15px;
     padding-left: 50px; 
     padding-right: 50px; 
-    border-radius: 50px;
+    border-radius: 50px 15px 50px 15px;
     border: none;
+    color: white;
     background-color: green;
-    color: #fff;
+    transition: background 1s, border-radius 1s, color 1s, font-family 1s;
+    will-change: background, border-radius;
+}
+.ola:hover{
+    background: darkblue;
+    border-radius: 15px 50px 15px 50px;
+    color: yellowgreen;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
