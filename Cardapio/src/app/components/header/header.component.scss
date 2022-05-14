@@ -1,0 +1,23 @@
+@import '../../styles/theme.scss';
+
+.header{
+    background-color: map-get($cores, 'primary');
+    width: 100%;
+    height: 120px;
+    transition: background 1s, font-weight 2s;
+    will-change: background;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    
+    h1{
+        color: white;
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+.header:hover{
+    background: blueviolet; 
+    font-weight: 400;
+}

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CardapioComponent } from './components/cardapio/cardapio.component';
 import { ListacardapiosComponent } from './components/listacardapios/listacardapios.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CardapioComponent,
-    ListacardapiosComponent
+    ListacardapiosComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
