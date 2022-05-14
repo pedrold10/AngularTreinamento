@@ -3,14 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NoticeComponent } from './components/notice/notice.component';
-import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { CardapioComponent } from './components/cardapio/cardapio.component';
+import { ListacardapiosComponent } from './components/listacardapios/listacardapios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NoticeComponent,
-    HomeComponent
+    HeaderComponent,
+    CardapioComponent,
+    ListacardapiosComponent
   ],
   imports: [
     BrowserModule,

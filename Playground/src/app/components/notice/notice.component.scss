@@ -1,0 +1,9 @@
+p{
+    color: red;
+    transition: color 1s, text-transform 3s, transform 5s;
+}
+p:hover{
+    color: blue;
+    text-transform: capitalize;
+    transform: rotateX(360deg);
+}

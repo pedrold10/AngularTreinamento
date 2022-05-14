@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-notice',
@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./notice.component.scss']
 })
 export class NoticeComponent {
-
-  constructor() { }
-
-
+  @Input() titulo: string = "Noticia Uniesp";
+  @Input() descricao: string = "Descricao";
+  @Input() texto: string = "texto";
+  constructor() { 
+  }
 }
