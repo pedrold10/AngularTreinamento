@@ -1,5 +1,5 @@
 {
-  "name": "projeto-inicial",
+  "name": "playground",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,7 +20,6 @@
     "@angular/router": "~13.3.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "yarn": "^1.22.18",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
