@@ -1,10 +1,10 @@
-<div class="cardapio">
-    <img [src]='imagem' alt="" srcset="">
-    <div class="cardapio-info">
 
-        <h5 class="titulo">{{titulo}}</h5>
-        <p class="endereco">{{endereco}}</p>
-        <p class="cidade">{{cidade}}</p>
-        <p class="telefone">{{telefone}}</p>
+<div class="cardapio" *ngFor="let prato of pratos">
+        <img [src]='prato.imagem' alt="" srcset="">
+        <div class="cardapio-info">
+            <h5>{{prato.titulo}}</h5>
+            <p class="endereco">{{prato.endereco}}</p>
+            <p class="cidade">{{prato.cidade}}</p>
+            <p class="telefone">{{prato.telefone}}</p>
     </div>
 </div>
