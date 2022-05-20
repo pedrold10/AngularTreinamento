@@ -9,6 +9,7 @@ import { ListacardapiosComponent } from './components/listacardapios/listacardap
 import { HomeComponent } from './pages/home/home.component';
 import { TituloComponent } from './titulo/titulo.component';
 import { ListNovidadesComponent } from './list-novidades/list-novidades.component';
+import { NovidadeComponent } from './components/novidade/novidade.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ListNovidadesComponent } from './list-novidades/list-novidades.componen
     ListacardapiosComponent,
     HomeComponent,
     TituloComponent,
-    ListNovidadesComponent
+    ListNovidadesComponent,
+    NovidadeComponent
   ],
   imports: [
     BrowserModule,

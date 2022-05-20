@@ -8,10 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TituloComponent implements OnInit {
 
 
-  @Input() titulos = [
-    {titulo: 'DESTAQUES'},
-    {titulo: 'NOVIDADES'}
-  ]
+  @Input() titulo = "";
 
   ngOnInit(): void {
   }
