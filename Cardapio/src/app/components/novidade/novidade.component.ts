@@ -21,6 +21,13 @@ export class NovidadeComponent implements OnInit {
       cidade: "João Pessoa",
       telefone: "(83) 3268-6551"
     },
+    {
+      imagem: "https://guiadopastel.com.br/wp-content/uploads/2020/04/4-receitas-de-massa-de-pastel-dourado-1200x840.jpg",
+      titulo: "Pastel",
+      endereco: "Avenida Pedro II, 2376",
+      cidade: "João Pessoa",
+      telefone: "(83) 3268-6551"
+    },
   ];
 
   constructor() { }
